@@ -1,0 +1,49 @@
+h1 {
+	color : #fff;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+h2 {
+	color : #fff;
+}
+header {
+	padding : 5pt;	
+	color : #fff;
+	background :#265280;
+	border-bottom-color: #B8CC49;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
+}
+.logo {
+	padding-top : 10pt;
+	padding-bottom : 10pt;
+}
+.logo img {
+	max-width: 100pt;
+}
+header h1 {
+	padding-top : 20pt;
+}
+.content {
+	padding : 5pt;
+	background: #EAEBEC;
+	border-bottom-color: #B8CC49;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;	
+	margin-bottom : 0px;
+}
+footer {
+	padding-top : 15pt;
+	padding-left : 5pt;
+	padding-right : 5pt;
+	padding-bottom : 15pt;
+	color : #fff;
+	background: #6F6F6F;
+	margin-bottom: 0pt
+}
+footer h1 {
+	text-transform: capitalize;
+}
+footer img {
+	max-width: 100pt;
+}
