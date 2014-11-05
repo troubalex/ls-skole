@@ -38,10 +38,18 @@ section img {
 header h1 {
 	padding-top : 20pt;
 }
+.label-blue {
+	background :#265280;
+}
 .content {
-	padding : 10pt;
+	padding-top: 20pt;
+	padding-left : 10pt;
+	padding-right : 10pt;
 	background: #EAEBEC;
 	margin-bottom : 0px;
+}
+aside {
+	font-size : 10pt;
 }
 footer {
 	font-size : 10pt;
