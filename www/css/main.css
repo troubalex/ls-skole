@@ -28,6 +28,13 @@ section img {
 	padding-right: 10pt;
 	padding-bottom: 20pt;
 }
+section output {
+	background : #fff;
+	padding : 15pt;
+	/*padding-bottom: 5pt;
+	padding-top: 15pt;
+	margin-bottom: 20pt;*/
+}
 .logo {
 	padding-top : 10pt;
 	padding-bottom : 10pt;
