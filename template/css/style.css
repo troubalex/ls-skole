@@ -34,7 +34,6 @@ I will really help you
 body {
 	font-family: 'Planer', Arial, sans-serif;
 	background:#FFF;
-	font-weight:400;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -44,8 +43,10 @@ body {
 strong, b {
 	font-weight:600;
 }
-h1 h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6 {
 	color: #0077C0;
+	font-weight: normal;
+	line-height: 1.414em;
 }
 
 h1 {
@@ -163,7 +164,7 @@ h5, h6, p { font-size: 1.2em; }
 
 .masthead {
 	position: relative;
-	padding: 20px 15px;
+	padding: 20px 15px 60px 15px;
 	color: #0077C0;
 	text-align: center;
 	background-color: #323e4f;
@@ -181,6 +182,9 @@ h5, h6, p { font-size: 1.2em; }
 	font-size: 1.414em;
 	font-family: Planer, sans-serif;
 	text-transform: uppercase;
+}
+.masthead label {
+	color: #45494D;
 }
 
 /*animation ends*/
@@ -398,11 +402,10 @@ to {
 .section-title {
 	margin-top:60px;
 	margin-bottom:30px;
-	font-weight:700;
 	text-align:center;
 }
 .section-title h2 {
-	color:#384047;
+	color:#45494D;
 	margin-bottom: 10px;
 }
 .section-title h4 {
@@ -423,7 +426,7 @@ to {
 	text-align:center;
 }
 .thumbnail .caption p {
-	color: #94a3a8;
+	color: #45494D;
 }
 /*Hover Animation*/
 
@@ -493,7 +496,7 @@ font-size: 20px;
 border-left: none;
 text-align:center;
 font-family:'Olsen Pro', Georgia, serif;
-font-style:italic;
+/*font-style:italic;*/
 }
 .clientblock img {
 	-webkit-border-radius:100%;
@@ -505,7 +508,6 @@ font-style:italic;
 }
 .clientblock p strong {
 	color:#384047;
-	font-size:16px;
 }
 
 
@@ -751,23 +753,10 @@ border: 1px solid #CCC;
 	color:#555;
 }
 
-
-/*Layout 3 Title and Image Separated*/
-
-.masthead .bg-image {
-	background:url(../images/edu-bg.jpg) top center no-repeat;	
-	background-size:cover;
-}
-
-.highlight .section-title {
-margin-top: 45px;
-}
-
-
 /*Layout 4 Full Header BG*/
 
 .masthead.header-bg {
-	background:url(../images/skole.jpg) top center no-repeat;	
+	background:url(../images/skole2.jpg) top center no-repeat;	
 	background-size:cover;
 	z-index: 2;
 }
