@@ -409,7 +409,7 @@ to {
 	margin-bottom: 10px;
 }
 .section-title h4 {
-	color:#94a3a8;
+	color:#73797F;
 	font-weight: normal;
 	margin-top: 0;
 }
@@ -626,6 +626,9 @@ font-family:'Olsen Pro', Georgia, serif;
 	padding-bottom: 15px;
 }
 
+.client-logos{
+	padding: 30px 0 10px 0;
+}
 
 
 /*==========9. CUSTOM MEDIA QUERIES==============*/
