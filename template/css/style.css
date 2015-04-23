@@ -1,14 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
-
-
-/*
-Theme Name: Multipurpose Landing Page Template - All in One
-Version: 1.0
-Author: Surjith SM
-Author URI: http://themeforest.net/user/surjithctly
-*/
-
 
 /******************  Table of Contents  *****************************/
 
@@ -22,9 +12,6 @@ Author URI: http://themeforest.net/user/surjithctly
 6. FAQ
 7. FOOTER
 8. CUSTOM MEDIA QUERIES
-
-If you having trouble in editing css. please send a mail to support@surjithctly.in - 
-I will really help you
 
 */
 
@@ -128,19 +115,10 @@ box-shadow: none;
  	padding-top:40px;
 }
  
-/*========== 1 a. SUB PAGES ==============*/
-
-
-.subpage-head {
-	background-color:#f4f4f4;
-	padding-top: 20px;
-	padding-bottom: 15px;
-	margin-bottom:40px;
-}
-
-/*========== 1 b. TYPOGRAPHY ==============*/
+/*========== 1 a. TYPOGRAPHY ==============*/
 
 /* SCALE
+
 3.998em
 3.393em
 2.827em
@@ -150,6 +128,7 @@ box-shadow: none;
 1.414em
 1.2em
 1em 
+
 */
 
 body { font-size: 18px; } 
@@ -167,7 +146,7 @@ h5, h6, p { font-size: 1.2em; }
 	padding: 20px 15px 60px 15px;
 	color: #0077C0;
 	text-align: center;
-	background-color: #323e4f;
+	background-color: #f4f4f4;
 }
 
 .masthead .main-title {
@@ -277,6 +256,9 @@ h5, h6, p { font-size: 1.2em; }
 	border:0;
 	text-align:center;
 }
+.testimonials .thumbnail {
+	background-color: #F4F4F4;
+}
 .thumbnail .caption {
 	text-align: left;
 }
@@ -309,23 +291,23 @@ h5, h6, p { font-size: 1.2em; }
 	margin:0 auto;
 }
 
- 
-
 /*========== 5. TESTIMONIALS ==============*/
 
 .clientblock {
-	margin-top:40px;
+	margin-top:10px;
 	margin-left:10px;
 	text-align:center;
 }
 blockquote {
-margin: 0 0 10px;
-font-size: 1.414em;
-border-left: none;
-text-align:center;
-font-family:'Olsen Pro', Georgia, serif;
-/*font-style:italic;*/
+	margin: 0 0 10px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	border-left: none;
+	text-align: center;
+	font-family: 'Olsen Pro Light Italic', Georgia, serif;
+	font-style: italic;
 }
+
 .clientblock img {
 	-webkit-border-radius:100%;
 	-moz-border-radius:100%;
