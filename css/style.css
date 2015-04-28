@@ -262,7 +262,10 @@ h5, h6, p { font-size: 1.2em; }
 	background-color: #F4F4F4;
 }
 .thumbnail .caption {
-	text-align: left;
+	text-align: center;
+}
+.thumbnail .caption h3 {
+	color: #45494D;
 }
 .thumbnail .caption p {
 	color: #45494D;
