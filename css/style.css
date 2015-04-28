@@ -80,8 +80,7 @@ a:hover, a:focus {
 	padding: 13px 28px;
 }
 .form-control:focus {
-border-color: #AFBDC8;
-outline: 0;
+border: 1px solid #F56A2A;
 -webkit-box-shadow: none;
 box-shadow: none;
 }
@@ -202,9 +201,6 @@ h5, h6, p { font-size: 1.2em; }
 	display: block;
 	padding: 5px 17px;
 	text-align:center;
-}
-.masthead .form-control {
-		border: 0;
 }
 
 /*Header Contact Form*/
@@ -452,7 +448,9 @@ border: 1px solid #EDEDED;
 .light .form-control {
 border: 1px solid #CCC;
 }
-
+.light .form-control:focus {
+border: 1px solid #F56A2A;
+}
 .contact-form .mini-title {
 	color:#555;
 }
