@@ -19,7 +19,7 @@
 
 
 body {
-	font-family: 'Planer', Arial, sans-serif;
+	font-family: 'Planer-Regular', Arial, sans-serif;
 	background:#FFF;
 	height: 100%;
 	margin: 0;
@@ -28,7 +28,9 @@ body {
 	line-height:1.414;
 }
 strong, b {
-	font-weight:600;
+	font-family: 'Planer-DemiBold', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
 h1,h2,h3,h4,h5,h6 {
 	color: #0077C0;
@@ -37,11 +39,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-family: 'Olsen Pro', Georgia, serif;
+	font-family: 'FFOlsenWebPro', Georgia, serif;
 	margin:25px 0;
 }
 h2 {
-	font-family: 'Olsen Pro', Georgia, serif;
+	font-family: 'FFOlsenWebPro', Georgia, serif;
 	margin:15px 0;
 }
 h3 {
@@ -304,8 +306,9 @@ blockquote {
 	line-height: 1.4em;
 	border-left: none;
 	text-align: center;
-	font-family: 'Olsen Pro Light Italic', Georgia, serif;
-	font-style: italic;
+	font-family: 'FFOlsenWebProLightItalic', Georgia, serif;
+	font-style: normal;
+	font-weight: normal;
 }
 
 .clientblock img {
