@@ -153,7 +153,6 @@ h5, h6, p { font-size: 1.2em; }
 .masthead .main-title {
 	margin-bottom:0;
 	text-shadow: 2px 2px 0 rgba(102, 196, 255, 1);
-	line-height: 1.697em;
 }
 
 .masthead .sub-title {
@@ -262,6 +261,7 @@ h5, h6, p { font-size: 1.2em; }
 }
 .thumbnail .caption h3 {
 	color: #45494D;
+	font-size: 1.414em;
 }
 .thumbnail .caption p {
 	color: #45494D;
