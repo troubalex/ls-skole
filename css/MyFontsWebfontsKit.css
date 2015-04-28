@@ -44,17 +44,17 @@
 @import url("//hello.myfonts.net/count/2e0068");
 
   
-@font-face {font-family: 'Planer-Regular';src: url('webfonts/2E0068_0_0.eot');src: url('webfonts/2E0068_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E0068_0_0.woff2') format('woff2'),url('webfonts/2E0068_0_0.woff') format('woff'),url('webfonts/2E0068_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Planer-Regular';src: url('../webfonts/2E0068_0_0.eot');src: url('../webfonts/2E0068_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E0068_0_0.woff2') format('woff2'),url('../webfonts/2E0068_0_0.woff') format('woff'),url('../webfonts/2E0068_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Planer-Italic';src: url('webfonts/2E0068_1_0.eot');src: url('webfonts/2E0068_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E0068_1_0.woff2') format('woff2'),url('webfonts/2E0068_1_0.woff') format('woff'),url('webfonts/2E0068_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Planer-Italic';src: url('../webfonts/2E0068_1_0.eot');src: url('../webfonts/2E0068_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E0068_1_0.woff2') format('woff2'),url('../webfonts/2E0068_1_0.woff') format('woff'),url('../webfonts/2E0068_1_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'Planer-DemiBold';src: url('webfonts/2E0068_2_0.eot');src: url('webfonts/2E0068_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E0068_2_0.woff2') format('woff2'),url('webfonts/2E0068_2_0.woff') format('woff'),url('webfonts/2E0068_2_0.ttf') format('truetype');}
+@font-face {font-family: 'Planer-DemiBold';src: url('../webfonts/2E0068_2_0.eot');src: url('../webfonts/2E0068_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E0068_2_0.woff2') format('woff2'),url('../webfonts/2E0068_2_0.woff') format('woff'),url('../webfonts/2E0068_2_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'FFOlsenWebPro';src: url('webfonts/2E0068_3_0.eot');src: url('webfonts/2E0068_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E0068_3_0.woff2') format('woff2'),url('webfonts/2E0068_3_0.woff') format('woff'),url('webfonts/2E0068_3_0.ttf') format('truetype');}
+@font-face {font-family: 'FFOlsenWebPro';src: url('../webfonts/2E0068_3_0.eot');src: url('../webfonts/2E0068_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E0068_3_0.woff2') format('woff2'),url('../webfonts/2E0068_3_0.woff') format('woff'),url('../webfonts/2E0068_3_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'FFOlsenWebProLightItalic';src: url('webfonts/2E0068_4_0.eot');src: url('webfonts/2E0068_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2E0068_4_0.woff2') format('woff2'),url('webfonts/2E0068_4_0.woff') format('woff'),url('webfonts/2E0068_4_0.ttf') format('truetype');}
+@font-face {font-family: 'FFOlsenWebProLightItalic';src: url('../webfonts/2E0068_4_0.eot');src: url('../webfonts/2E0068_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2E0068_4_0.woff2') format('woff2'),url('../webfonts/2E0068_4_0.woff') format('woff'),url('../webfonts/2E0068_4_0.ttf') format('truetype');}
  

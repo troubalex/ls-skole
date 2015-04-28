@@ -19,7 +19,7 @@
 
 
 body {
-	font-family: 'Planer-Regular', Arial, sans-serif;
+	font-family: Planer-Regular, Arial, sans-serif;
 	background:#FFF;
 	height: 100%;
 	margin: 0;
@@ -28,7 +28,7 @@ body {
 	line-height:1.414;
 }
 strong, b {
-	font-family: 'Planer-DemiBold', Arial, sans-serif;
+	font-family: Planer-DemiBold, Arial, sans-serif;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -39,11 +39,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-family: 'FFOlsenWebPro', Georgia, serif;
+	font-family: FFOlsenWebPro, Georgia, serif;
 	margin:25px 0;
 }
 h2 {
-	font-family: 'FFOlsenWebPro', Georgia, serif;
+	font-family: FFOlsenWebPro, Georgia, serif;
 	margin:15px 0;
 }
 h3 {
@@ -161,7 +161,7 @@ h5, h6, p { font-size: 1.2em; }
 	margin-top: 0;
 	color: #FFF;
 	font-size: 1.414em;
-	font-family: Planer, sans-serif;
+	font-family: Planer-Regular, sans-serif;
 	text-transform: uppercase;
 }
 
@@ -306,7 +306,7 @@ blockquote {
 	line-height: 1.4em;
 	border-left: none;
 	text-align: center;
-	font-family: 'FFOlsenWebProLightItalic', Georgia, serif;
+	font-family: FFOlsenWebProLightItalic, Georgia, serif;
 	font-style: normal;
 	font-weight: normal;
 }
