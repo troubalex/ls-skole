@@ -69,7 +69,9 @@ a:before {
 a:hover, a:focus {
 	color:#F56A2A;
 }
-
+a.btn:before{
+	content: '';
+}
 .btn, .btn-lg, .input-lg {
 	border-radius:3px;
 }
@@ -379,7 +381,7 @@ blockquote {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	body{
 		font-size: 12px;
 	}
@@ -393,7 +395,13 @@ blockquote {
 	h5, h6, p { font-size: 1.414em; }
 	.footerlinks {font-size: 1em; }
 	.thumbnail img {
-		width: 50px;
+		width: 70px;
+	}
+	#explore .has-padding-top{
+		padding-top: 10px;
+	}
+	.header-img{
+		width: 80%;
 	}
 }
 
