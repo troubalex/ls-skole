@@ -91,6 +91,9 @@ box-shadow: none;
 	background:#f4f4f4;
 	margin-top:40px;
 }
+.sign-up {
+	margin-top: 0;
+}
 .has-no-margin {
 	margin:0;	
 }
@@ -162,6 +165,12 @@ h5, h6, p { font-size: 1.2em; }
 	text-transform: uppercase;
 }
 
+.header-img {
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto 0 auto;
+}
+
 /*animation ends*/
 
 .logo {
@@ -216,7 +225,6 @@ h5, h6, p { font-size: 1.2em; }
 .contact-form .mini-title {
 	margin-bottom:20px;
 	line-height:1.5;
-	color:#FFF;
 	text-shadow: none;
 	color: #555;
 }
@@ -447,7 +455,6 @@ background: #FCF9F5;
 
 .light .contact-form {
 background: #F4F4F4;
-border: 1px solid #EDEDED;
  }
  
 .light .form-control {
