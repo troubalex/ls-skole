@@ -47,6 +47,7 @@ h2 {
 	margin:15px 0;
 }
 h3 {
+	font-size: 1.414em;
 	margin: 10px 0;
 }
 h4 {
@@ -59,10 +60,14 @@ h6 {
 	margin:10px 0;
 }
 a {
-	color:#5173bd;
+	color:#F56A2A;
 }
+a:before {
+	content: '> ';
+}
+
 a:hover, a:focus {
-	color:#5173bd;
+	color:#F56A2A;
 }
 
 .btn, .btn-lg, .input-lg {
@@ -138,9 +143,8 @@ box-shadow: none;
 body { font-size: 18px; } 
 h1 { font-size: 3.393em; }
 h2 { font-size: 1.999em; }
-h3 { font-size: 1.697em; }
-h4 {font-size: 1.414em; }
-h5, h6, p { font-size: 1.2em; }
+h3 {font-size: 1.414em; }
+h4, h5, h6, p { font-size: 1.2em; }
 .footerlinks {font-size: 0.707em; }
 
 /*========== 2. HEADER ==============*/
@@ -180,6 +184,9 @@ h5, h6, p { font-size: 1.2em; }
 .logo img {
 	width: 100px;
 }
+.logo a:before {
+	content: '';
+}
 .btn {
 	border: none;
 	border-radius: 4px;
@@ -193,7 +200,7 @@ h5, h6, p { font-size: 1.2em; }
 	background-color: #F56A2A;
 	text-transform: uppercase;
 	background-image:none;
-	box-shadow: 2px 2px 0 rgba(255,168,128,1)
+	box-shadow: 0 3px 0 rgba(255,168,128,1)
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
 	background-color: #F58B5B!important;
@@ -268,10 +275,7 @@ h5, h6, p { font-size: 1.2em; }
 .thumbnail .caption {
 	text-align: center;
 }
-.thumbnail .caption h3 {
-	color: #45494D;
-	font-size: 1.414em;
-}
+
 .thumbnail .caption p {
 	color: #45494D;
 }
@@ -382,7 +386,7 @@ blockquote {
 	h2 {
 		font-size: 1.697em;
 	}
-	.caption h3 {
+	h3 {
 		text-align: center;
 		text-transform: uppercase;
 	}
@@ -393,7 +397,17 @@ blockquote {
 	}
 }
 
+@media (min-width: 992px) {
+	.left {
+		padding-right: 35px;
+	}
+	.right {
+		padding-left: 35px;
+	}
+}
+
 @media (max-width: 991px) {
+
  h1 {
 margin: 15px 0;
 }
@@ -442,7 +456,6 @@ background-attachment: scroll;
 	margin:10px;	
 }
 
- s
 
 
  /*
