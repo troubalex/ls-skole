@@ -375,9 +375,13 @@ blockquote {
 	}
 	.caption h3 {
 		text-align: center;
+		text-transform: uppercase;
 	}
 	h5, h6, p { font-size: 1.414em; }
 	.footerlinks {font-size: 1em; }
+	.thumbnail img {
+		width: 50px;
+	}
 }
 
 @media (max-width: 991px) {
