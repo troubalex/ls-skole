@@ -20,7 +20,7 @@
 
 body {
 	font-family: Planer-Regular, Arial, sans-serif;
-	background-color: #0077C0;
+	background-color: #FFF;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -93,6 +93,9 @@ box-shadow: none;
 }
 .breath {
 	margin:35px auto;
+}
+.wrapper {
+	background-color: #FFF;
 }
 .highlight {
 	background:#f4f4f4;
@@ -189,7 +192,7 @@ h4, h5, h6, p { font-size: 1.2em; }
 	background: url(../images/header.svg) no-repeat center;
 	background-size: 100%;
 	background-position: bottom;
-	z-index: -1;	
+	z-index: -9999;	
 	width: 100%; 
 	height: 100%;
 }
