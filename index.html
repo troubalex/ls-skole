@@ -82,12 +82,12 @@
 <!-- // Parallax Header Ends --> 
 
 <!-- Form -->
-<div class="highlight sign-up">
+<div class="highlight sign-up" id="sign-up">
   <div class="container">
     <div class="row has-padding-top has-margin-bottom light">
     
     <!-- Signup form -->
-      <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
+      <div class="col-xs-12">
         <div class="contact-form">
           <p class="mini-title">Gratis epostkurs i seks deler der du annenhver dag mottar en leksjon i din innboks - fra og med idag!</p>
             <form class="form-inline validate" action="//iterate.us1.list-manage.com/subscribe/post?u=7f8b49c57e6b6a6607e6c7749&amp;id=669f39e984" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>                    
@@ -109,7 +109,7 @@
             </form>
         </div>
       </div>
-      <!-- // Contact  form Ends --> 
+      <!-- // Sign-up  form Ends --> 
     </div>
   </div>      
 </div>
@@ -265,19 +265,41 @@
   <section class="highlight"><div class="container"> 
     
   <!-- Client Logos -->
-  <div class="row clientlogo breath">
+  <div class="row has-margin-bottom clientlogo breath">
     <div class="section-title">
     <h2>Kom i gang med Lean Startup</h2>
     <p>Vi har oppsummert læringen og suksessene fra noen av våre ferske kunde-caser i seks leksjoner til deg.</p>
-    <div class="col-md-12 text-center client-logos"> <img src="images/logo_clients.png" alt="client-logos"></div>
+    <!-- Mailchimp Subscribe form -->
+    <div class="row light">
+      <div class="col-xs-12">
+        <div class="contact-form">
+          <form class="form-inline validate" action="//iterate.us1.list-manage.com/subscribe/post?u=7f8b49c57e6b6a6607e6c7749&amp;id=669f39e984" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+            <div class="form-group">
+               <label class="sr-only" for="mce-FNAME">Ditt navn</label>
+               <input class="form-control input-lg" type="text" value="" placeholder="Ditt navn" name="FNAME" id="mce-FNAME" required>
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="mce-EMAIL">Din epost</label>
+              <input class="form-control input-lg" type="email" value="" placeholder="Din epost" name="EMAIL" id="mc-EMAIL" required>
+            </div>
+                      <!-- <div id="mce-responses">
+                        <div id="mce-error-response" style="display:none"></div>
+                        <div id="mce-success-response" style="display:none"></div>
+                      </div> -->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_7f8b49c57e6b6a6607e6c7749_669f39e984" tabindex="-1" value=""></div>
+            <input class="btn btn-primary btn-lg" type="submit" value="Meld deg på" name="subscribe" id="mc-embedded-subscribe">
+            <span class="loading"></span>
+          </form>
+        </div>
+      </div>
+    </div>
+      <!-- // Subscribe  form Ends --> 
+    <div class="col-md-12 text-center client-logos has-padding-top"> <img src="images/logo_clients.png" alt="client-logos"></div>
   </div>
   <!-- // End Client Logos --> 
   </div>
-    <!-- Mailchimp Subscribe form -->
-    <div class="row has-margin-bottom">
-      <div class="col-md-12 text-center"> <a href="#top" class="btn btn-primary btn-lg">MELD DEG PÅ</a> </div>
-    </div>
-  </div></section>
+  </div>
+  </section>
  
 <!-- //  Footer CTA Ends --> 
 
