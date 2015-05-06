@@ -32,10 +32,19 @@ strong, b {
 	font-weight: normal;
 	font-style: normal;
 }
-h1,h2,h3,h4,h5,h6 {
+em {
+	font-family: Planer-Italic, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+h1,h2,h3 {
 	color: #0077C0;
 	font-weight: normal;
-	line-height: 1.414em;
+	line-height: 1.414;
+}
+h4,h5,h6 {
+	font-weight: normal;
+	line-height: 1.414;
 }
 
 h1 {
@@ -128,6 +137,9 @@ box-shadow: none;
 .has-padding-top {
  	padding-top:40px;
 }
+.portrait {
+	width: 100%;
+}
  
 /*========== 1 a. TYPOGRAPHY ==============*/
 
@@ -149,8 +161,14 @@ body { font-size: 18px; }
 h1 { font-size: 3.393em; }
 h2 { font-size: 1.999em; }
 h3 {font-size: 1.414em; }
-h4, h5, h6, p { font-size: 1.2em; }
+h4, h5, h6 { font-size: 1.2em; text-transform: uppercase;}
+p {font-size: 1.2em;}
+
 .footerlinks {font-size: 0.707em; }
+
+.intro {font-size: 1.414em;}
+
+li {font-size: 1.2em;}
 
 /*========== 2. HEADER ==============*/
 
@@ -293,13 +311,13 @@ h4, h5, h6, p { font-size: 1.2em; }
 .testimonials .thumbnail {
 	background-color: #F4F4F4;
 }
-.thumbnail .caption {
+.caption {
 	text-align: center;
+	color: #45494D;
+	font-family: Planer-Italic, Arial, sans-serif;
+	font-size: 1.2em;
 }
 
-.thumbnail .caption p {
-	color: #45494D;
-}
 /*Hover Animation*/
 
 .thumbnail img {
