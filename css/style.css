@@ -322,7 +322,7 @@ h4, h5, h6, p { font-size: 1.2em; }
 /*Video Block*/
 
 .video-block {
-	max-width:620px;
+	max-width:640px;
 	margin:0 auto;
 }
 
