@@ -37,16 +37,11 @@ em {
 	font-weight: normal;
 	font-style: normal;
 }
-h1,h2,h3 {
+h1,h2,h3,h4,h5,h6 {
 	color: #0077C0;
 	font-weight: normal;
 	line-height: 1.414;
 }
-h4,h5,h6 {
-	font-weight: normal;
-	line-height: 1.414;
-}
-
 h1 {
 	font-family: FFOlsenWebPro, Georgia, serif;
 	margin:25px 0;
@@ -56,8 +51,14 @@ h2 {
 	margin:15px 0;
 }
 h3 {
+	font-family: Planer-Regular, Arial, sans-serif;
 	font-size: 1.414em;
 	margin: 10px 0;
+}
+h3.article {
+	font-family: FFOlsenWebPro, Georgia, serif;
+	font-weight: normal;
+	font-style: normal;
 }
 h4 {
 	margin:10px 0;
@@ -81,6 +82,9 @@ a:hover, a:focus {
 a.btn:before{
 	content: '';
 }
+
+/* ===== FORMS ===== */
+
 .btn, .btn-lg, .input-lg {
 	border-radius:3px;
 }
@@ -100,6 +104,9 @@ border: 1px solid #F56A2A;
 -webkit-box-shadow: none;
 box-shadow: none;
 }
+
+/* ===== LAYOUT ELEMENTS ====== */
+
 .breath {
 	margin:35px auto;
 }
@@ -129,16 +136,40 @@ box-shadow: none;
 .has-margin-top {
  	margin-top:40px;
 }
-
 .has-margin-bottom {
  	margin-bottom:40px;
 }
-
 .has-padding-top {
  	padding-top:40px;
 }
+.has-padding-bottom {
+	padding-bottom: 20px;
+}
+.info-box {
+	margin-left: 1.414em;
+	background: #f4f4f4;
+	padding: 1.2em;
+}
+.info-box p {
+	font-family: Planer-Italic, Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-size: 1em;
+}
+
+/* ===== ASSETS ===== */
+
 .portrait {
 	width: 100%;
+}
+.img-caption {
+	padding: .8em 0;
+	text-align: center;
+	color: #45494D;
+	font-family: Planer-Italic, Arial, sans-serif;
+	font-size: 1em;
+	font-style: normal;
+	font-variant: normal;
 }
  
 /*========== 1 a. TYPOGRAPHY ==============*/
@@ -307,15 +338,15 @@ li {font-size: 1.2em;}
 .thumbnail {
 	border:0;
 	text-align:center;
+	background: transparent;
 }
 .testimonials .thumbnail {
 	background-color: #F4F4F4;
 }
-.caption {
+.teaser {
 	text-align: center;
 	color: #45494D;
-	font-family: Planer-Italic, Arial, sans-serif;
-	font-size: 1.2em;
+	font-family: Planer, Arial, sans-serif;
 }
 
 /*Hover Animation*/
@@ -403,13 +434,16 @@ blockquote {
 }
 .footerlinks a {
 	text-align:center;
-	padding:0 13px;
 	display:inline-block;
 	padding-bottom: 15px;
 }
 
 .client-logos{
 	padding: 30px 0 10px 0;
+}
+.client-logo-single {
+	height: 100px;
+	padding: 0 1em 1em 0;
 }
 
 
