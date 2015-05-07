@@ -155,16 +155,17 @@ box-shadow: none;
 	font-style: normal;
 	font-variant: normal;
 	font-size: 1em;
+	border-radius: 5px;
 }
 
 /* ===== ASSETS ===== */
 
 .portrait {
 	width: 100%;
+	padding-bottom: 1.2em;
 }
 .img-caption {
-	padding: .8em 0;
-	text-align: center;
+	padding: .8em 0 0 .8em;
 	color: #45494D;
 	font-family: Planer-Italic, Arial, sans-serif;
 	font-size: 1em;
@@ -467,14 +468,14 @@ blockquote {
 	body{
 		font-size: 12px;
 	}
-	h2 {
+	h2, .intro {
 		font-size: 1.697em;
 	}
 	h3 {
 		text-align: center;
 		text-transform: uppercase;
 	}
-	h5, h6, p { font-size: 1.414em; }
+	h5, h6, p, li, .info-box p { font-size: 1.414em; }
 	.footerlinks {font-size: 1em; }
 	.thumbnail img {
 		width: 70px;
@@ -485,6 +486,9 @@ blockquote {
 	.btn-lg {
 		display: block;
 		width: 100%;
+	}
+	.info-box {
+		margin-left: 0;
 	}
 }
 
