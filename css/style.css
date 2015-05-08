@@ -82,6 +82,11 @@ a:hover, a:focus {
 a.btn:before{
 	content: '';
 }
+th {
+	font-family: Planer-DemiBold, Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
 
 /* ===== FORMS ===== */
 
@@ -145,8 +150,10 @@ box-shadow: none;
 .has-padding-bottom {
 	padding-bottom: 20px;
 }
+aside {
+	margin-left: 1.999em;
+}
 .info-box {
-	margin-left: 1.414em;
 	background: #f4f4f4;
 	padding: 1.2em;
 	border-radius: 3px;
@@ -160,13 +167,16 @@ box-shadow: none;
 
 /* ===== ASSETS ===== */
 
+.figure {
+	border-radius: 3px;
+}
 .portrait {
 	width: 100%;
 	margin-bottom: 1.2em;
 	border-radius: 3px;
 }
 .img-caption {
-	padding: .8em 0 0 .8em;
+	padding-top: .8em;
 	color: #45494D;
 	font-family: Planer-Italic, Arial, sans-serif;
 	font-size: 1em;
